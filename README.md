@@ -1,4 +1,4 @@
-Common device tree for Xiaomi mt6765 based devices
+Common device tree for Infinix mt6765 based devices
 ==============
 
 Dependencies of building:
