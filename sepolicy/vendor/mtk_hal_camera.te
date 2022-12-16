@@ -1,3 +1,4 @@
 type mtk_hal_camera, domain;
 type mtk_hal_camera_exec, exec_type, file_type, vendor_file_type;
-allow mtk_hal_camera default_prop:file read;
+allow mtk_hal_camera default_prop:file { read open getattr };
+allow mtk_hal_camera data_skin_cfg_file:file getattr;
