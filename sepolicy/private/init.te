@@ -5,3 +5,7 @@ allow vendor_init vendor_init:capability { sys_module };
 
 # Allow init to mount vendor configs
 allow init vendor_file:file mounton;
+
+allow init vbmeta_block_device:file relabelto;
+allow init boot_block_device:file relabelto;
+allow init unlabeled:file execute;
