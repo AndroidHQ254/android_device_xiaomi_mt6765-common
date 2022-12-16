@@ -13,7 +13,7 @@ on init
     setprop persist.vendor.mtk_ct_volte_support 0
 
     # bind mount libmtk-ril.so
-    mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
+    mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind
 
     # bind mount power HAL
-    mount none /system/lib/hw/power.mt6765.so /vendor/lib/hw/power.mt6765.so bind
+    mount none /system/lib64/hw/power.mt6765.so /vendor/lib64/hw/power.mt6765.so bind

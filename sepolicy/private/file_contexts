@@ -5,10 +5,10 @@
 /system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
 
 # Power HAL
-/system/lib/hw/power\.mt6765\.so u:object_r:vendor_file:s0
+/system/lib64/hw/power\.mt6765\.so u:object_r:vendor_file:s0
 
 # RIL
-/system/lib/libmtk-ril\.so u:object_r:vendor_file:s0
+/system/lib64/libmtk-ril\.so u:object_r:vendor_file:s0
 
 # Rootfs
 /persist(/.*)? u:object_r:persist_file:s0
